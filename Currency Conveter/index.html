@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,700|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="app-holder">
+  <div class="bar">
+    <div class="window close"></div>
+    <div class="window min"></div>
+    <div class="window max"></div>
+  </div>
+  <div class="app-area">
+    <input type="number" id='base-c-value' placeholder="How much" autofocus/>
+    <select id="base-list" class="first">
+      <option>Your Currency</option>
+      <option value="INR">Indian Rupee</option>
+      <option value="USD">US Dollar</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="GBP">Great Britain Pound</option>
+    </select>
+    <span id='to'>&darr;</span>
+    <select id="exchange-list">
+      <option>Converted Currency</option>
+      <option value="INR">Indian Rupee</option>
+      <option value="USD">US Dollar</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="AUD">Australian Dollar</option>
+      <option value="GBP">Great Britain Pound</option>
+    </select>
+    <button id="convert">Convert</button>
+    
+  </div>
+  <div class="result">
+    <p id="converted-price"> </p>
+    <span id="close-modal">&#10006;</span>
+  </div>
+  <footer>
+    <p>your go to currency converter</p>
+  </footer>
+</div>
+<div class="page-footer">
+    <p>
+        Please cache results whenever possible. <b>
+The API comes with no warranty !!!</b>
+    </p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
