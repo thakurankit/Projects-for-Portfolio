@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+  }
+body,html{
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+.container{
+  padding: 0 20px;
+  }
+.nav{
+  display: flex;
+  justify-content: space-between; 
+  height: 70px;
+  line-height: 70px;
+  background: rgba(214, 48, 49,1.0);
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  }
+.nav h1{
+  font-size: 14px;
+  }
+.nav .fas{
+  line-height: 70px;
+  cursor: pointer;
+  }
+.intro{
+  height: calc(80vh - 70px);
+  background: rgba(231, 76, 60,1.0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+.intro h1,
+.intro section,
+.intro span{
+  margin: 10px 0;
+  }
+.intro section{
+  text-align: justify;
+  line-height: 2em;
+  }
+button{
+  font-family: "Varela Round", sans-serif;
+  padding: 6px 0;
+  background: transparent;
+  border: 1px solid #fafafa;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  width: 140px;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  }
+.intro button .fab{
+  font-size: 18px;
+  }
+.flow{
+  padding-top: 50px;
+  }
+.flow h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  }
+.flow h3 span{
+  border-bottom: 2px solid #212121;
+  }  
+.diagram{
+  margin: 70px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+.diagram p{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  }
+.g-group{
+  margin-bottom:100px;
+  }
+.diagram i{
+  font-size: 6em;
+  }
+.fa-comments{
+  margin-bottom: 100px;
+  }
+.flowline section{
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  word-spacing: 5px;
+  color: #aaa;
+  }
+#eat{
+  margin-bottom: 100px;
+  }
+#ride section{
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 100px;
+  color: #aaa;
+  }
+footer{
+  height: 100vh;
+  position: relative;
+  /*margin-bottom: 30px;*/
+  }
+.nav-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 20px;
+  }
+.nav-1 a{
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #212121;
+  padding: 0;
+  letter-spacing: 2px;
+  }
+.nav-1 a i{
+  font-size: 20px;
+  vertical-align: middle;
+
+  }
+.sociallinks{
+  border-bottom: none;
+  }
+.sociallinks .social{
+  margin-top: 20px;
+  }
+.social a{
+  margin-right: 10px;
+  }  
+.others{
+  align-items: flex-start;
+  border-bottom: none;
+  }
+#last-btn{
+  margin-top: 30px;
+  display: block;
+  font-family: "Varela Round", sans-serif;
+  }
+.terms button{
+  border: 2px solid #212121;
+  font-family: "Varela Round", sans-serif;
+  }
+.terms button i{
+  font-size: 20px;
+  }
+.terms{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-direction: column;
+  }  
+.termslinks{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;;
+  }
+.termslinks a{
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #212121;
+  padding: 0;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  }
